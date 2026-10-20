@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<meta content="#160d20" name="theme-color"/>
+<meta content="Hana Petals Game Studio — Every petal has a different story. Discover Infection: Gutted, Base One: Ascend, and Shawn." name="description"/>
+<title>Hana Petals Game Studio | Every petal has a different story.</title>
+<link href="style.css" rel="stylesheet"/>
+<script defer="" src="script.js"></script>
+</head>
+<body>
+<!-- The working cinematic intro from version one is preserved. -->
+<div aria-label="Hana Petals studio introduction" class="intro" id="intro">
+<div aria-hidden="true" class="ripple ripple-one"></div>
+<div aria-hidden="true" class="ripple ripple-two"></div>
+<div aria-hidden="true" class="floating-petal petal-one"></div>
+<div aria-hidden="true" class="floating-petal petal-two"></div>
+<div aria-hidden="true" class="floating-petal petal-three"></div>
+<img alt="Hana Petals Game Studio passion flower emblem with three drifting petals" class="intro-logo" src="images/passion-flower-logo.png"/>
+<button aria-label="Turn intro sound on" aria-pressed="false" class="intro-sound" id="introSound" type="button">♫ Sound off</button><button class="skip-button" id="skipIntro" type="button">Skip intro →</button>
+</div>
+<div class="site-shell" id="homepage" tabindex="-1">
+<header class="site-header">
+<nav aria-label="Main navigation" class="navigation">
+<a aria-label="Hana Petals Game Studio, home" class="brand" href="#home">HANA PETALS <span>GAME STUDIO</span></a>
+<button aria-controls="navLinks" aria-expanded="false" aria-label="Open navigation menu" class="menu-toggle" id="menuToggle" type="button">☰</button>
+<div class="nav-links" id="navLinks">
+<a href="#games">Our games</a>
+<a href="#about">Our story</a>
+<a href="#updates">Studio Journal</a>
+<a href="#contact">Contact</a>
+<button class="replay-button" id="replayIntro" type="button">↻ Replay intro</button>
+</div>
+</nav>
+</header>
+<main>
+<section aria-labelledby="heroTitle" class="hero" id="home">
+<div aria-hidden="true" class="hero-glow"></div>
+<div class="hero-content reveal">
+<p class="eyebrow">WELCOME TO HANA PETALS GAME STUDIO</p>
+<h1 id="heroTitle">Every petal has a <em>different story.</em></h1>
+<p class="hero-description">An independent game studio cultivating original worlds, one story at a time.</p>
+<div class="hero-actions">
+<a class="primary-button" href="#games">Explore our games ↗</a>
+<a class="text-link" href="#about">Meet the studio ↓</a>
+</div>
+</div>
+<p aria-hidden="true" class="scroll-hint">SCROLL TO EXPLORE <span>↓</span></p>
+</section>
+<section aria-labelledby="gamesTitle" class="section petal-games" id="games">
+<div class="section-intro reveal"><p class="eyebrow">01 / THREE WORLDS TO DISCOVER</p><h2 id="gamesTitle">Every petal, <em>a different story.</em></h2><p>Choose a petal to explore each game.</p></div>
+<div class="petal-stack">
+<article class="story reveal"><button aria-controls="story-infection" aria-expanded="false" class="story-toggle" type="button"><span aria-hidden="true" class="game-petal pink"><span>01</span></span><span class="story-label"><small>MULTIPLAYER SURVIVAL HORROR</small><strong>Infection: Gutted</strong><span class="story-hint">Discover this story</span></span><span aria-hidden="true" class="story-chevron">⌄</span></button><div class="story-detail" hidden="" id="story-infection"><p>A multiplayer survival horror game set within the mysterious halls of Hana Hospital. Choose your character, uncover its secrets, and fight to survive. But when the outbreak begins, will you and your friends make it out alive?</p><p class="game-note">In development · First target: Android</p><a class="text-link" href="#contact">Ask about this game ↗</a></div></article>
+<article class="story reveal"><button aria-controls="story-base" aria-expanded="false" class="story-toggle" type="button"><span aria-hidden="true" class="game-petal blue"><span>02</span></span><span class="story-label"><small>SCI-FI ACTION RPG</small><strong>Base One: Ascend</strong><span class="story-hint">Discover this story</span></span><span aria-hidden="true" class="story-chevron">⌄</span></button><div class="story-detail" hidden="" id="story-base"><p>Two experimental subjects. One facility. A world where emotions become extraordinary powers. Escape the facility and make choices that shape your abilities, relationships, and destiny. Will you become a hero—or someone far darker?</p><p class="game-note">A world in development</p><a class="text-link" href="#contact">Ask about this game ↗</a></div></article>
+<article class="story reveal"><button aria-controls="story-shawn" aria-expanded="false" class="story-toggle" type="button"><span aria-hidden="true" class="game-petal purple"><span>03</span></span><span class="story-label"><small>CHOICE-DRIVEN ZOMBIE APOCALYPSE</small><strong>Shawn</strong><span class="story-hint">Discover this story</span></span><span aria-hidden="true" class="story-chevron">⌄</span></button><div class="story-detail" hidden="" id="story-shawn"><p>Seventeen-year-old Shawn is immune to the infection because of experiments his scientist father performed on him as a child. Traveling with Layla, Damos, and Jane, he discovers he can influence the infected—and becomes a target of Patient Zero. His choices shape the journey ahead.</p><p class="game-note">A world in development</p><a class="text-link" href="#contact">Ask about this game ↗</a></div></article>
+</div></section>
+<section aria-labelledby="aboutTitle" class="section about-section" id="about">
+<div aria-hidden="true" class="about-mark reveal"><img alt="" loading="lazy" src="images/passion-flower-logo.png"/></div>
+<div class="about-copy reveal">
+<p class="eyebrow">02 / BEHIND THE PETALS</p>
+<h2 id="aboutTitle">Different petals.<br/><em>Different worlds.</em></h2>
+<p>Hana Petals Game Studio is an independent game studio built around the idea that every game has its own story to tell.</p>
+<p>From eerie mysteries to worlds still waiting to be imagined, our vision is to create memorable experiences worth exploring.</p>
+<a class="text-link" href="#updates">Follow the journey ↗</a>
+</div>
+</section>
+<section aria-labelledby="updatesTitle" class="section updates-section" id="updates"><div class="section-intro reveal"><p class="eyebrow">03 / WHAT’S GROWING</p><h2 id="updatesTitle">Our <em>First Chapter</em></h2><p>Every story grows at its own pace. Select a pink water drop to see where each game stands.</p></div><div class="drop-stack"><article class="drop-card reveal"><button aria-controls="drop-infection" aria-expanded="false" class="drop-toggle" type="button"><span aria-hidden="true" class="water-drop"><span>01</span></span><span class="drop-label"><strong>Infection: Gutted</strong><span class="development-status">Development Status: In Development</span><small>View development update <span aria-hidden="true">▾</span></small></span></button><div class="drop-detail" hidden="" id="drop-infection"><p>Character development is underway, with ten base survivor models prepared and the first four characters prioritized for detailed production.</p><p>Current development focuses on establishing the character creation workflow, improving the Hana Hospital environment, and building the foundational gameplay systems.</p></div></article><article class="drop-card reveal"><button aria-controls="drop-shawn" aria-expanded="false" class="drop-toggle" type="button"><span aria-hidden="true" class="water-drop"><span>02</span></span><span class="drop-label"><strong>Shawn</strong><span class="development-status">Development Status: Story Development</span><small>View development update <span aria-hidden="true">▾</span></small></span></button><div class="drop-detail" hidden="" id="drop-shawn"><p>Shawn’s storyline is currently undergoing review and rewrites to create the most engaging and enjoyable experience possible.</p><p>The game’s narrative is taking shape, but development of its visual world has not yet begun.</p></div></article><article class="drop-card reveal"><button aria-controls="drop-base" aria-expanded="false" class="drop-toggle" type="button"><span aria-hidden="true" class="water-drop"><span>03</span></span><span class="drop-label"><strong>Base One: Ascend</strong><span class="development-status">Development Status: Early Pre-Production</span><small>View development update <span aria-hidden="true">▾</span></small></span></button><div class="drop-detail" hidden="" id="drop-base"><p>Base One: Ascend is currently in early pre-production. Its core story, characters, gameplay mechanics, and branching-choice system have been established.</p><p>Development has not yet progressed to a fully playable prototype.</p></div></article></div><div class="studio-journal reveal"><button aria-controls="journalContents" aria-expanded="false" class="journal-toggle" id="journalToggle" type="button"><span><span class="eyebrow">STUDIO JOURNAL</span><strong>Studio Journal</strong><small>Studio-wide notes and announcements</small></span><span aria-hidden="true" class="journal-triangle">▸</span></button><div hidden="" id="journalContents"><p>Hana Petals Game Studio is growing its first three original worlds. Studio-wide announcements will appear here as they're ready.</p><p>The cinematic passion flower introduction and interactive games showcase are part of our first chapter.</p></div></div></section>
+<section aria-labelledby="contactTitle" class="section contact-section reveal" id="contact"><p class="eyebrow">04 / GET IN TOUCH</p><h2 id="contactTitle">Let's talk <em>stories.</em></h2><p>Questions, feedback, press, or a collaboration idea? Send Hana Petals a message.</p><a class="contact-email" href="mailto:hello.na.hana@gmail.com">hello.na.hana@gmail.com ↗</a><form class="contact-form" id="contactForm" action="https://formspree.io/f/xdeavbvb" method="POST"><label for="senderName">Your name</label><input autocomplete="name" id="senderName" maxlength="100" name="senderName" placeholder="Your name" required="" type="text"/><label for="senderEmail">Your email</label><input autocomplete="email" id="senderEmail" name="email" placeholder="you@example.com" required="" type="email"/><label for="topic">Topic</label><select id="topic" name="topic" required=""><option value="">Choose a topic</option><option>General Inquiry</option><option>Game Feedback &amp; Support</option><option>Business &amp; Collaborations</option><option>Press &amp; Media</option><option>Other</option></select><div hidden="" id="gameField"><label for="gameChoice">Which game?</label><select id="gameChoice" name="gameChoice"><option value="">Choose a game</option><option>Infection: Gutted</option><option>Base One: Ascend</option><option>Shawn</option></select></div><label for="message">Your message</label><textarea id="message" maxlength="3000" name="message" placeholder="What would you like to share?" required="" rows="5"></textarea><button class="primary-button" id="submitContact" type="submit">Send Message ↗</button><p aria-live="polite" class="form-note" id="formStatus">Messages are sent securely through Formspree. Please avoid sharing sensitive personal information.</p></form></section>
+</main>
+<footer class="footer">
+<a class="brand" href="#home">HANA PETALS <span>GAME STUDIO</span></a>
+<p>Every petal has a different story.</p>
+<a class="back-to-top" href="#home">Back to top ↑</a>
+</footer>
+</div>
+</body>
+</html>
